@@ -1,19 +1,19 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import sandro_laptop from '../../assets/sandro_laptop.png'
 
 
 const About = () => {
   return (
     <div id='about' className='about'>
       <div className="title-box">
-        <h1>About me</h1>
+        <h1>Über Verling Solutions</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
         <div className="about-left">
-            <img src={profile_img} alt="" />
+            <img src={sandro_laptop} alt="" />
         </div>
         <div className="about-right">
             <div className="about-para">

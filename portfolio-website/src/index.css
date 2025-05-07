@@ -5,9 +5,11 @@
 }
 body{
   min-height: 100vh;
-  background: #161513;
-  color: white;
-  font-family: 'outfit';
+  background: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
+  
 }
 .title-box{
   position: relative;

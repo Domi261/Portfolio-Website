@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 10%;
+    
+    
 }
 .nav-menu{
     display: flex;
@@ -10,17 +12,18 @@
     list-style: none;
     gap: 40px;
     font-size: 16px;
+   
 }
 .nav-connect{
     padding: 15px 20px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(267deg,   #1e0c8f  0.36%, #1393be 102.06%);
     font-size: 16px;
     cursor: pointer;
     transition: 0.5s;
 }
 .logo{
-    width: 100px;
+    width: 200px;
 }
 .nav-connect:hover{
     transform: scale(1.05);
@@ -38,7 +41,7 @@
 }
 .anchor-link{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .nav-mob-close{
     display: none;
@@ -74,7 +77,7 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #1F0016;
+        background-color: #2d32d7;
         width: 300px;
         height: 100%;
         z-index: 2;
