@@ -3,6 +3,10 @@ import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import sandro_laptop from '../../assets/sandro_laptop.png'
 
+// Icons aus deinem assets-Ordner
+import flexibility from '../../assets/flexibility.svg'
+import solution from '../../assets/solution.svg'
+import reliability from '../../assets/reliability.svg'
 
 const About = () => {
   return (
@@ -11,6 +15,7 @@ const About = () => {
         <h1>Über Verling Solutions</h1>
         <img src={theme_pattern} alt="" />
       </div>
+
       <div className="about-sections">
         <div className="about-left">
             <img src={sandro_laptop} alt="" />
@@ -20,28 +25,23 @@ const About = () => {
                 <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
                 <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
             </div>
-            <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
-                <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}} /></div>
-                <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}} /></div>
-                <div className="about-skill"><p>Next JS</p><hr style={{width:"50%"}} /></div>
-            </div>
         </div>
       </div>
+
       <div className="about-achievements">
         <div className="about-achievement">
-            <h1>10+</h1>
-            <p>YEARS OF EXPERIENCE</p>
+          <img src={flexibility} alt="Flexibilität Icon" className="achievement-icon" />
+          <p>Flexibel</p>
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>90+</h1>
-            <p>PROJECTS COMPLETED</p>
+          <img src={solution} alt="Lösungsorientierung Icon" className="achievement-icon" />
+          <p>Lösungsorientiert</p>
         </div>
         <hr />
         <div className="about-achievement">
-            <h1>15+</h1>
-            <p>HAPPY CLIENTS</p>
+          <img src={reliability} alt="Zuverlässigkeit Icon" className="achievement-icon" />
+          <p>Zuverlässig</p>
         </div>
       </div>
     </div>

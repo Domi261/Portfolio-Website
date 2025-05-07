@@ -23,7 +23,7 @@
     transition: 0.5s;
 }
 .logo{
-    width: 200px;
+    width: 150px;
 }
 .nav-connect:hover{
     transform: scale(1.05);
@@ -39,6 +39,21 @@
     display: flex;
     margin: auto;
 }
+
+
+.active-indicator {
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 4px;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+  }
+  
+
+
+
+
 .anchor-link{
     text-decoration: none;
     color: black;

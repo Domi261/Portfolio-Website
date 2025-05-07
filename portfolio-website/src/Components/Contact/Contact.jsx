@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact'>
       <div className="title-box">
-        <h1>Get in touch</h1>
+        <h1>Kontakt</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="contact-section">
@@ -56,13 +56,13 @@ const Contact = () => {
             </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-            <label htmlFor="">Your Name</label>
-            <input type="text" placeholder='Enter your name' name='name' />
-            <label htmlFor="">Your Email</label>
-            <input type="email" placeholder='Enter your email' name='email' />
-            <label htmlFor="">Write your message here</label>
-            <textarea name="message" rows="8" placeholder='Enter your message'></textarea>
-            <button type='submit' className="contact-submit">Submit now</button>
+            <label htmlFor="">Ihr Name</label>
+            <input type="text" placeholder='Geben Sie ihren Namen ein' name='name' />
+            <label htmlFor="">Ihre Email</label>
+            <input type="email" placeholder='Geben Sie ihre Email ein' name='email' />
+            <label htmlFor="">Geben Sie hier Ihre Nachricht ein</label>
+            <textarea name="message" rows="8" placeholder='Ihr Anliegen'></textarea>
+            <button type='submit' className="contact-submit">Anfrage einreichen</button>
         </form>
       </div>
     </div>
