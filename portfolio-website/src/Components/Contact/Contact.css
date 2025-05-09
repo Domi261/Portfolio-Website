@@ -83,7 +83,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 18px 40px;
     margin-bottom: 50px;
-    margin-top: 15px;
+    margin-top: -1px;
     cursor: pointer;
     transition: 0.3s;
 }
