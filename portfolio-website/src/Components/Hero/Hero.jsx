@@ -1,12 +1,25 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
+import hero_background from "../../assets/hero_building.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
-    <div id="home" className="hero">
-      <img src={profile_img} alt="" className="profile-img" />
+    <div
+      id="home"
+      className="hero"
+      style={{
+        backgroundImage: `url(${hero_background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        minHeight: "100vh",
+        paddingTop: "120px",
+        paddingBottom: "100px"
+      }}
+    >
+      <img src={profile_img} alt="Profil" className="profile-img" />
       <h1>
         <span>I'm Alex Bennett,</span> frontend developer based in USA.
       </h1>
