@@ -16,20 +16,16 @@
   
   .hero h1 {
     width: 65%;
+    color: black;
     font-size: 65px;
     font-weight: 600;
     line-height: 70px;
   }
   
-  .hero h1 span {
-    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
   
   .hero p {
     width: 50%;
+    color: black;
     font-size: 18px;
     line-height: 30px;
   }
@@ -45,7 +41,7 @@
   .hero-connect {
     padding: 20px 30px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    background: #1e0c8f;
     cursor: pointer;
     color: white;
   }
